@@ -4,32 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Clicker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <div class="sidebar">
-        <div class="item"></div>
-    </div>
+<h1>Cookie Clicker Game</h1>
+<img id="cookie" src="rher.webp" alt="Cookie">
+<p>Cookies: <span id="cookieCount">0</span></p>
 
-    <div class="main-content">
-        <div class="top-bar">
-            <button class="top-button">Options</button>
-            <button class="top-button">Stats</button>
-        </div>
+<button class="button" id="autoClicker" disabled></button>
+<button class="button" id="multiplier" disabled></button>
 
-        <div class="click-area">
-            <div id="cookie" class="cookie">
-                <div class="score" id="score">0</div>
-                <img src="cookie22-removebg-preview.png" alt="Cookie Pic"/>
-            </div>
-        </div>
-    </div>
-    <div class="right-panel">
-        <button class="right-button">Upgrades</button>
-    </div>
-</div>
-
-<script src="java.js"></script>
+<script src="clicker.js"></script>
 </body>
 </html>
